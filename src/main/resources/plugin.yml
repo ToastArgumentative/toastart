@@ -1,0 +1,20 @@
+name: LegendsRebornV2
+version: '${project.version}'
+main: pine.toast.toastart.LegendsRebornV2
+api-version: '1.20'
+
+
+commands:
+  skills:
+    description: Open up your characters skills menu
+    usage: /skills
+  addLevel:
+    description: Set your level
+    usage: /setLevel <level>
+
+  giveTheFurnace:
+    description: Give the furnace mace
+    usage: /giveTheFurnace [ rarity ] [ player ]
+  giveTheFury:
+    description: Give the fury mace
+    usage: /giveTheFury [ rarity ] [ player ]
